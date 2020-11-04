@@ -3,6 +3,7 @@
   justify-content: center;
   background-color: $bcg-list;
   padding: 20px 30px;
+  color: rgb(56, 43, 43);
   .wrapper-personages {
     width: 80%;
   }
@@ -35,6 +36,7 @@
 
   tbody {
     background-color: yellow;
+    font-weight: bold;
   }
 
   th {
