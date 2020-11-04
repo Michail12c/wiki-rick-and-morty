@@ -1,0 +1,16 @@
+.personage {
+  padding: 20px;
+  height: 100vw;
+  background-color: $bcg-personage;
+
+  .wrapper-personage {
+    display: flex;
+    img {
+      margin-right: 20px;
+    }
+    span {
+      font-weight: 700;
+    }
+  }
+
+}

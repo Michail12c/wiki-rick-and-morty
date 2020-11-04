@@ -1,0 +1,20 @@
+@import './styles/variables.scss';
+@import './styles/header.scss';
+@import './styles/personageDetails.scss';
+@import './styles/listPersonages.scss';
+@import './styles/blockModal.scss';
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: $btn-green;
+  color: white;
+  border-radius: 20px;
+  padding: 7px 15px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+button:hover {
+  background-color: $green-hover;
+}

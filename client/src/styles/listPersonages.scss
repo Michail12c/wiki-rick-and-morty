@@ -1,0 +1,71 @@
+.list-personages {
+  display: flex;
+  justify-content: center;
+  background-color: $bcg-list;
+  padding: 20px 30px;
+  .wrapper-personages {
+    width: 80%;
+  }
+  .inner-personages {
+    display: flex;
+    justify-content: space-between;
+  }
+  .next-btn {
+    background-color: rgb(161, 115, 28);
+  }
+  .next-btn:hover {
+    background-color: rgb(209, 148, 35);
+  }
+
+  table {
+   border: 3px solid brown;
+   width: 100%;
+  }
+
+  caption{
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: rgb(82, 80, 80);
+    font-weight: bold;
+  }
+
+  thead {
+    background-color: green;
+  }
+
+  tbody {
+    background-color: yellow;
+  }
+
+  th {
+   padding: 7px 5px;
+  }
+
+  td {
+    padding: 5px 10px;
+    width: 100%;
+    cursor: pointer;
+  }
+
+ tbody > tr:hover {
+    background-color: red;
+  }
+
+  .table-row {
+    width: 100%;
+    &__id {
+      width: 10%;
+      text-align: center;
+    }
+    &__name {
+      width: 70%;
+    }
+    &__species {
+      width: 15%;
+      text-align: center;
+    }
+    &__img{
+      width: 5%;
+    }
+  }
+}
