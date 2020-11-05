@@ -70,4 +70,12 @@
       width: 5%;
     }
   }
+
+  @media (max-width: 575.98px) {
+    padding: 10px 0px;
+    width: 100%;
+    .wrapper-personages {
+      width: 100%;
+    }
+  }
 }

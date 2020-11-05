@@ -10,7 +10,7 @@
   .logo {
     align-self: center;
     margin-left: 1rem;;
-    color: rgb(39, 21, 21);
+    color: $brown;
     font-weight: bold;
     font-size: 18px;
   }
@@ -25,12 +25,14 @@
     a {
       text-decoration: none;
       margin-right: 1rem;
-      color: rgb(224, 214, 214);
+      color: $brown;
+      font-weight: bold;
     }
   }
 
   .active {
     color: $active-color !important;
   }
+
 }
 

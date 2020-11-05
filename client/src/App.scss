@@ -18,3 +18,10 @@ button {
 button:hover {
   background-color: $green-hover;
 }
+
+@media (max-width: 575.98px) {
+  .button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+}

@@ -1,7 +1,9 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, withRouter } from 'react-router-dom';
 
 const Header = (props) => {
+
+const { location: {pathname} } = props;
 
   return (
    <div className="header">
@@ -19,9 +21,12 @@ const Header = (props) => {
          activeClassName = 'active'
          to='/model'>Верстка блока</NavLink>
       </li>
+     { pathname === '/personage' && <li>
+        <a className="active">Детали персонажа</a>
+      </li> }
     </ul>
    </div>
   );
 }
 
-export default Header;
+export default withRouter(Header);
